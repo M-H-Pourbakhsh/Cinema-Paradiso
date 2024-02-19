@@ -9,8 +9,8 @@ import { useGetGenresQuery } from '../../services/TMDB';
 import { selectGenreOrCategory } from '../../features/currentGenreOrCategory';
 import genreIcons from '../../assets/genres';
 
-const blueLogo = '/images/cinema-paradiso-blue-logo-transparent.svg';
-const redLogo = '/images/cinema-paradiso-red-logo-transparent.svg';
+const blueLogo = '/images/cinema-paradiso-blue-ogo.svg';
+const redLogo = '/images/cinema-paradiso-red-ogo.svg';
 
 const categories = [
   { label: 'Popular', value: 'popular' },
